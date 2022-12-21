@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile_text">
+      <div class="imgBx">
+        <div class="container_img">
+          <div class="slide" style="background-image: url('./img/img1.jpg')">
+          </div>
+          <div class="slide" style="background-image: url('./img/img2.jpg')">
+          </div>
+          <div class="slide" style="background-image: url('./img/img3.jpg')">
+          </div>
+        </div>
+
+      </div>
+      <h2>Igor Veselkov<br /><span>Junior Frontend Developer</span></h2>
+      <div class="button">
+        <a class="text" href="" id="open_pop_up1">Contact me here</a>
+      </div>
+    </div>
+
+    <div class="about">
+      <h2 class="title">About me</h2>
+      <p>
+        I am 28 years old. My hobbies are soccer, music and learning new
+        things. In July 2022, I wanted to become a frontend developer. I
+        quit my job and started studying HTML and CSS on my own with YouTube
+        and courses from Stepik. Learned to layout, started learning with
+        JavaScript on Udemi. Made a few small projects using JS.<br /><br />
+        In September 2022, I signed up for a course from Innopolis
+        University on the basics of Frontend development. Also did a few
+        projects using JS and a larger project on React. I want to continue
+        my way in Frontend development.
+      </p>
+    </div>
+
+    <div class="skills">
+      <h2 class="title">Skills</h2>
+      <div class="box">
+        <h4>HTML</h4>
+        <div class="percent">
+          <div style="width: 85%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>CSS</h4>
+        <div class="percent">
+          <div style="width: 70%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>Figma</h4>
+        <div class="percent">
+          <div style="width: 55%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>SASS/SCSS</h4>
+        <div class="percent">
+          <div style="width: 20%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>JavaScript</h4>
+        <div class="percent">
+          <div style="width: 50%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>React</h4>
+        <div class="percent">
+          <div style="width: 45%"></div>
+        </div>
+      </div>
+      <div class="box">
+        <h4>Git</h4>
+        <div class="percent">
+          <div style="width: 60%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact_info">
+      <h3 class="title">Contacts</h3>
+      <ul>
+        <li>
+          <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+          <a class="text" href="tel:+79195903759">+ 7 919 590 3759</a>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <a class="text" href="mailto:veselkov_igor@bk.ru">veselkov_igor@bk.ru</a>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+          <a class="text" href="https://t.me/vesigo" target="_blank">@vesigo</a>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-vk" aria-hidden="true"></i></span>
+          <a class="text" href="https://vk.com/veselkov_igor" target="_blank">@veselkov_igor</a>
+        </li>
+        <li>
+          <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+          <a class="text" href="https://goo.gl/maps/uPYEGmZMHMUtLxrL7" target="_blank">Kurgan, Russia</a>
+        </li>
+      </ul>
+
+      <div class="button">
+        <a class="text" href="" id="open_pop_up2">Contact me here</a>
+      </div>
+
+      <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+          <div class="pop_up_body" id="pop_up_body">
+            <h2 class="title">Обратная связь</h2>
+            <form action="#">
+              <span id="name_error"></span>
+              <input type="text" id="name" placeholder="Ваше имя">
+              <span id="email_error"></span>
+              <input type="text" id="email" placeholder="Email">
+              <span id="number_error"></span>
+              <input type="text" id="number" placeholder="+7(___)-___-__-__">
+              <button id="submit">Отправить</button>
+            </form>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
